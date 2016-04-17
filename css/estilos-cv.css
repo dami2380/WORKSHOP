@@ -1,0 +1,356 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body{
+	font-family: 'Varela', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+.cleaner{
+	clear: both;
+}
+.wrapper{
+	width: 95%;
+	margin: 20px auto;
+	border: solid black;
+}
+
+body h1{
+	color: #19227D;
+}
+body h2{
+	color: #4C71BC;
+}
+
+.desarrollo i{
+	text-shadow:1px 1px black;
+}
+.riesgo i{
+	text-shadow:1px 1px black;
+}
+.programacion i{
+	text-shadow:1px 1px black;
+}
+.educacion i{
+	text-shadow:1px 1px black;
+}
+.contacto i{
+	text-shadow:1px 1px black;
+}
+.nombre{
+	width: 50%;
+margin-left: 3%;
+float: left;
+
+padding-top: 0px;
+line-height: 0px;
+
+}
+
+
+.nombre h1{
+	font-weight: 700px;
+	font-size: 45px;
+font-color: blue;
+text-shadow: 1px 1px black;
+
+padding-left: 0;
+}
+.nombre h2{
+	font-weight: 500px;
+	font-size: 35px;
+text-shadow: 1px 1px blue;
+
+}
+.linea1{
+	border-top: solid 1px black;
+	width: 100%;
+}
+.foto{
+	box-shadow: 2px 2px 5px black;
+height: 200.1px;
+
+}
+.email{
+	
+	padding-top: 20px;
+}
+.email p{
+
+font-size: 20px;
+}
+.email i{
+color: #075474;
+	text-shadow:1px 1px #090540;
+}
+.foto{
+	float:right;
+}
+header{
+	border-bottom: solid black 1px;
+}
+
+
+.desarrollo{
+	padding-left: 3%;
+border-bottom: solid black 1px;
+padding-right: 20%;
+
+}
+.desarrollo h2{
+	font-weight: 500px;
+	font-size: 35px;
+}
+.desarrollo dl{
+	font-size: 20px;
+}
+.desarrollo dl dt{
+	line-height: 40px;
+	font-size: 25px;
+	font-weight: 500px;
+margin-left: 0px;
+}
+.valuacion{
+	position: inside;
+padding-left: 30px;
+line-height: 30px;
+}
+.linea-1{
+	margin-bottom: 20px;
+margin-top: 30px;
+
+}
+
+.riesgo{
+	position: inside;
+padding-left: 30px;
+line-height: 30px;
+}
+
+.programacion{
+	border-bottom: solid black 1px;
+}
+.programacion h2{
+	font-weight: 500px;
+padding-left: 3%;
+	font-size: 35px;
+}
+.html{
+	float:left;
+width: 20%;
+text-align: center;
+margin-left: 4%;
+
+}
+.css{
+	float: left;
+	width: 20%;
+	text-align: center;
+margin-left: 4%;
+}
+.mi-icono{
+	color: #E7DB21;
+}
+.css img{
+width: 76px;
+text-shadow: 1px 1px 1px black;
+}
+.blanco{
+	color:#F3E7E7;
+}
+.icono-grande {
+	color: #C12D2D;
+	text-shadow: 1px 1px 1px black;
+
+}
+.educacion h2{
+	font-weight: 500px;
+
+	font-size: 35px;
+}
+.educacion{
+	padding-left: 3%;
+border-bottom: solid black 1px;
+}
+.educacion dl{
+	font-size: 20px;
+}
+.educacion dl dt{
+	line-height: 40px;
+	font-size: 25px;
+	font-weight: 500px;
+}
+.educacion dl dt dd li{
+	line-height: 50px;
+}
+.contacto h2{
+	font-weight: 500px;
+padding-left: 3%;
+	font-size: 35px;
+}
+.buscador2{
+	padding-bottom: 50px;
+padding-top: 50px;
+position: relative;
+
+}
+.buscador2 input[type=text]{
+	display: inline-block;
+	float:left;
+width: 40%;
+height: 40px;
+padding-left: 1.666666666666%;
+margin-left: 5%;
+border: solid black 1px;
+border-radius: 10px;
+
+vertical-align: center;
+}
+.input2{
+	margin-top: 60px;
+margin-bottom: 40px;
+}
+.buscador2 textarea{
+	display: inline-block;
+	float:right;
+height: 140px;
+width: 40%;
+padding-left: 1.666666666666%;
+margin-right: 5%;
+border: solid black 1px;
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.buscador2 button{
+	position: relative;
+	top: 180px;
+	
+width: 10%;
+height: 40px;
+box-shadow: 2px 2px 1px;
+border-radius: 20px;
+}
+
+ @media(max-width: 860px){
+	.nombre{
+		width: 55%;
+	}
+.foto{
+	margin-right: 1%;
+}
+
+ }
+
+@media(max-width: 700px){
+
+	.nombre{
+		float:none;
+		text-align: center;
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+	}
+.foto{
+	float:none;
+	width: 100%;
+	margin-left: 0;
+	box-shadow: none;
+}
+.foto img{
+	
+	display: block;
+	/*position: relative;
+	right: 25%;*/
+margin: auto;
+border: none;
+	box-shadow: 2px 2px 5px black;
+}
+.email{
+	position: relative;
+}
+.linea1{
+	display: none;
+}
+.email p{
+display: inline-block;
+float: left;
+
+width: 20%;
+}
+.email i{
+	display: block;
+	/*position: absolute;
+	right: 0;*/
+float: right;
+margin-right: 1%;
+margin-left: 1%;
+}
+
+.buscador2 button{
+	display: block;
+	
+width: 15%;
+height: 40px;
+top: 40px;
+margin: auto;
+	}
+.html{
+	width: 46%;
+	
+}
+.css{
+	width: 46%;
+
+	}
+
+}
+
+@media(max-width: 480px){
+
+.nombre h1{
+	font-weight: 500px;
+	font-size: 30px;
+
+}
+.nombre h2{
+	font-weight: 300px;
+	font-size: 20px;
+
+}
+.email{
+	margin: auto;
+}
+.email p{
+width: 100%;
+font-size: 12px;
+}
+
+.email i{
+display: inline-block;
+	float:none;
+}
+.desarrollo h2{
+	font-size: 25px;
+}
+.programacion h2{
+	font-size: 25px;
+}
+.educacion h2{
+	font-size: 25px;
+}
+.contacto h2{
+	font-size: 25px;
+	}
+.buscador2 button{
+	
+width: 20%;
+height: 40px;
+top: 40px;
+margin: auto;
+	}
+
+	
+	
+
+}
